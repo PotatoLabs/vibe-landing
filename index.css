@@ -1,0 +1,302 @@
+html, body {
+  font-family: 'Nixie One', bold;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+  margin: 0;
+  padding: 20px 50px;
+}
+
+header > nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-container banner {
+  display: none;
+}
+
+@media all and (min-width: 820px) {
+  .banner-container banner {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+.banner-caption {
+  margin: 0 20px 35px 20px;
+}
+
+@media all and (min-width: 481px) {
+  .banner-caption {
+    margin: 0 0 20 0;
+  }
+}
+
+.app-store {
+  max-width: 180px;
+}
+
+.banner-message {
+  color: white;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+@media all and (min-width: 820px) {
+  .banner-message {
+    height: 240px;
+    width: 50%;
+  }
+}
+
+.banner-message h3 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 100px;
+  line-height: 110px;
+  margin-bottom: 15px;
+}
+
+.banner-message p {
+  font-family: 'Nixie One', bold;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+@media all and (min-width: 481px) {
+  .banner-message p {
+    font-size: 28px;
+  }
+}
+
+.banner-container {
+  height: 300px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: -1;
+}
+
+@media all and (min-width: 820px) {
+  .banner-container {
+    background-image: none;
+    height: inherit;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  .banner-container {
+    top: 20px;
+  }
+}
+
+.banner {
+  align-items: center;
+  display: flex;
+  height: 299px;
+  justify-content: center;
+  width: 100%;
+}
+
+@media all and (min-width: 820px) {
+  .banner {
+    height: 538px;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  .banner {
+    height: 540px;
+  }
+}
+
+@media all and (min-width: 2000px) {
+  .banner {
+    height: 827px;
+  }
+}
+
+.about-section, .icon-row {
+  background: white;
+  font-family: 'Nixie One', bold;
+}
+
+.about-section {
+  padding: 0px;
+}
+
+.about-text {
+  align-items: center;
+  color: #151634;
+  display: flex;
+  flex-direction: column;
+  margin: 0 7%;
+  text-align: center;
+}
+
+@media all and (min-width: 481px) {
+  .about-text {
+    margin: 0 10%;
+  }
+}
+
+.about-section h3 {
+  padding: 25px 0;
+}
+
+.about-section p {
+  padding: 25px 0;
+  width: 80%;
+}
+
+.icon-row {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 20% 30px 20%;
+}
+
+@media all and (min-width: 481px) {
+  .icon-row {
+    flex-direction: row;
+  }
+}
+
+.icon-set {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.icons-section hr {
+  border-top: 1px solid #151634;
+  color: #151634;
+  margin: 0 20%;
+}
+
+.summary-section {
+  background: white;
+}
+
+.summary-background {
+  background-size: cover;
+  background: url("assets/images/mockup.png") center no-repeat;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  padding: 20px;
+}
+
+@media all and (min-width: 481px) {
+  .summary-background {
+    margin: 0 50px;
+  }
+}
+
+
+.summary-text {
+  color: white;
+  font-family: 'Nixie One', bold;
+  font-weight: 800;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 10px 10px;
+}
+
+@media all and (min-width: 820px) {
+  .summary-text {
+    margin-left: 400px;
+    text-align: left;
+    width: 400px;
+  }
+}
+
+footer {
+  background: #151634;
+  color: white;
+  font-family: 'Nixie One', bold;
+  padding: 30px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+@media all and (min-width: 481px) {
+  .footer-links {
+    margin: 0 35%;
+  }
+}
+
+.footer-links a {
+  color: white;
+}
+
+.legal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+nav a {
+  color: #151634;
+  font-family: 'Nixie One', bold;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+@media all and (min-width: 481px) {
+  .logo-image {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.blue-button {
+  background-color: #151634;
+  border-color: #151634;
+  color: white;
+}
+
+a.blue-button:hover {
+  color: white;
+  background-color: #71EEF5;
+  border-color: #71EEF5;
+}
