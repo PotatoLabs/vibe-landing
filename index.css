@@ -74,10 +74,11 @@ main {
 }
 
 .banner-message h3 {
-  font-family: 'La Belle Aurore', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 100px;
   line-height: 110px;
   margin-bottom: 15px;
+  font-weight: 300;
 }
 
 .banner-message p {
